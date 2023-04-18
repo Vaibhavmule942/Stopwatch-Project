@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 62.5%;
+    background-color: black;
+    color: white;
+}
+
+article {
+    margin: 120px auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#timer{
+    font-size: 7rem;
+}
+
+.button-section {
+    width: 250px;
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    background-color: #fffe;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    color: transparent;
+
+}
+
+.button:hover {
+    background-color: #fffd;
+}
+
+.button:active {
+    background-color: #fffb;
+}
+
+/* Icons obtained from https://icons8.com/icon/set/media-controls/ios-glyphs */
+#go {
+    background-image: url("./assets/icons8-play-50.png");
+}
+
+#stop {
+    background-image: url("./assets/icons8-stop-50.png");
+}
+
+#pause {
+    background-image: url("./assets/icons8-pause-50.png");
+}
+
+#flag {
+    background-image: url("./assets/icons8-flag-48.png");
+}
+
+.flag-section {
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+
+.new-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-top: 1px solid #fff6;
+}
+
+.new-input {
+    margin: 15px 0;
+}
